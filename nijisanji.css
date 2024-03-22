@@ -1,0 +1,76 @@
+html {
+    font-size: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.a {
+    display: block;
+}
+/* 
+body
+*/
+.contents {
+    display: flex;
+}
+
+.contents .visual {
+    height: 172px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.content h2 {
+    display: flex;
+    align-items: center;
+}
+.content h2 a {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.content h2 a img {
+    height: 25px;
+    width: 25px;
+}
+
+/*
+ グループ
+ */
+ .group {
+    
+    padding-bottom: 30px;
+ }
+ .group img{
+    height: 172px;
+ }
+ .group ul{
+    display: flex;
+ }
+.group li {
+    width: 32%;
+    text-align: center;
+}
+.group {
+    text-align: center;
+
+}
+.section-title {
+    display: inline;
+    border-bottom: 1px solid indigo;
+}
+/* 
+group li color
+*/
+.g-lize {
+    background-color: #42FFFF;
+}
+.g-ange {
+    background-color: #C83C35;
+}
+.g-inui {
+    background-color: #9D3757;
+}
