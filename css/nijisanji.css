@@ -74,3 +74,13 @@ group li color
 .g-inui {
     background-color: #9D3757;
 }
+
+@media screen and (max-width:600px) {
+    .group ul {
+        flex-direction: column;
+    }
+    .group li {
+        width: 80%;
+    }
+
+}
